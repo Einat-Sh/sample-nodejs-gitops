@@ -1,10 +1,8 @@
 image:
   repository: einatsh/sample-node
-  tag: "0000"
-
+  tag: "e57b320b1ae6c878f99f69c6ee29184bef1bd067"
 imagePullSecrets:
   - name: dockerhub-pull
-
 ingress:
   enabled: true
   className: nginx
