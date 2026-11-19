@@ -8,13 +8,13 @@ metadata:
 spec:
   project: sample-node
   sources:
-    - repoURL: https://github.com/einatsh/sample-nodejs.git
+    - repoURL: https://github.com/Einat-Sh/sample-nodejs.git
       targetRevision: main
       path: helm/sample-node
       helm:
         valueFiles:
           - $values/apps/sample-nodejs/dev/values.yaml
-    - repoURL: https://github.com/siconsuela/sample-nodejs-gitops.git
+    - repoURL: https://github.com/Einat-Sh/sample-nodejs-gitops.git
       targetRevision: main
       ref: values
   destination:

@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/einatsh/sample-nodejs-gitops.git
+    repoURL: https://github.com/Einat-Sh/sample-nodejs-gitops.git
     targetRevision: main
     path: argocd
     directory:

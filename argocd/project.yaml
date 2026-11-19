@@ -6,8 +6,8 @@ metadata:
 spec:
   description: application
   sourceRepos:
-    - https://github.com/einatsh/sample-nodejs.git
-    - https://github.com/einatsh/sample-nodejs-gitops.git
+    - https://github.com/Einat-Sh/sample-nodejs.git
+    - https://github.com/Einat-Sh/sample-nodejs-gitops.git
   destinations:
     - server: https://kubernetes.default.svc
       namespace: sample-node-*
